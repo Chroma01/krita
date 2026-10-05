@@ -884,10 +884,10 @@ void Node::paintLine(const QPointF pointOne, const QPointF pointTwo, double pres
     helper.paintLine(pointOneInfo, pointTwoInfo);
 }
 
-void Node::paintStroke(const QList<StrokePoint> &points, const QString strokeStyle)
+void Node::paintPolylineStroke(const QList<StrokePoint> &points, const QString strokeStyle)
 {
     if (paintAbility() != "PAINT") {
-        dbgScript << "Script attempted to use Node::paintStroke() on an unpaintable node, ignoring.";
+        dbgScript << "Script attempted to use Node::paintPolylineStroke() on an unpaintable node, ignoring.";
         return;
     }
 

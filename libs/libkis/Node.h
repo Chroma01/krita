@@ -593,7 +593,7 @@ public Q_SLOTS:
                    const QString strokeStyle = PaintingResources::defaultStrokeStyle);
 
     /**
-     * @brief paintStroke paint one continuous brush stroke with complete input
+     * @brief paintPolylineStroke paint one continuous brush stroke with complete input
      * information for every supplied point. Uses the current brush preset.
      *
      * The stroke is submitted as one undoable freehand stroke, so brush
@@ -604,7 +604,7 @@ public Q_SLOTS:
      * milliseconds from the beginning of the stroke; speed is normalized.
      * @param strokeStyle appearance of the outline; see paintLine().
      */
-    void paintStroke(const QList<StrokePoint> &points,
+    void paintPolylineStroke(const QList<StrokePoint> &points,
                      const QString strokeStyle = PaintingResources::defaultStrokeStyle);
 
     /**
