@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-06 00:43+0000\n"
-"PO-Revision-Date: 2026-10-01 20:22+0100\n"
+"PO-Revision-Date: 2026-10-07 00:38+0100\n"
 "Last-Translator: Sofía Priego <spriego@darksylvania.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -66613,48 +66613,44 @@ msgid "Gradient"
 msgstr "Degradado"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:267
-#, fuzzy, kde-format
-#| msgid "&Dither:"
+#, kde-format
 msgid "Dither:"
-msgstr "&Entramar:"
+msgstr "Entramado:"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:270
-#, fuzzy, kde-format
-#| msgid "None"
+#, kde-format
 msgctxt "The gradient will not be dithered"
 msgid "None"
-msgstr "Ninguna"
+msgstr "Ninguno"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:271
-#, fuzzy, kde-format
-#| msgid "Simplex Noise"
+#, kde-format
 msgctxt "The gradient will be dithered with Blue Noise"
 msgid "Blue Noise"
-msgstr "Ruido símplex"
+msgstr "Ruido azul"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:272
 #, kde-format
 msgctxt "The gradient will be dithered with Bayer Matrix 2x2"
 msgid "Bayer Matrix 2x2"
-msgstr ""
+msgstr "Matriz de Bayer 2x2"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:273
 #, kde-format
 msgctxt "The gradient will be dithered with Bayer Matrix 4x4"
 msgid "Bayer Matrix 4x4"
-msgstr ""
+msgstr "Matriz de Bayer 4x4"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:274
 #, kde-format
 msgctxt "The gradient will be dithered with Bayer Matrix 8x8"
 msgid "Bayer Matrix 8x8"
-msgstr ""
+msgstr "Matriz de Bayer 8x8"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:278
-#, fuzzy, kde-format
-#| msgid "&Dither:"
+#, kde-format
 msgid "Dither steps:"
-msgstr "&Entramar:"
+msgstr "Pasos de entramado:"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:293
 #, kde-format
@@ -70933,7 +70929,3 @@ msgstr ""
 "Cambiar entre intervalo completo y subintervalo.\n"
 "Intervalo completo: [%1, %2]\n"
 "Subintervalo: [%3, %4]"
-
-#~ msgctxt "the gradient will be dithered"
-#~ msgid "Dither"
-#~ msgstr "Entramar"

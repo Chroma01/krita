@@ -63,7 +63,7 @@ msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-10-06 00:43+0000\n"
-"PO-Revision-Date: 2026-10-02 12:02+0200\n"
+"PO-Revision-Date: 2026-10-06 11:09+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -66619,48 +66619,44 @@ msgid "Gradient"
 msgstr "Kleurverloop"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:267
-#, fuzzy, kde-format
-#| msgid "&Dither:"
+#, kde-format
 msgid "Dither:"
-msgstr "&Ditheren (wiebelen):"
+msgstr "Ditheren (wiebelen):"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:270
-#, fuzzy, kde-format
-#| msgid "None"
+#, kde-format
 msgctxt "The gradient will not be dithered"
 msgid "None"
 msgstr "Geen"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:271
-#, fuzzy, kde-format
-#| msgid "Simplex Noise"
+#, kde-format
 msgctxt "The gradient will be dithered with Blue Noise"
 msgid "Blue Noise"
-msgstr "Simplex ruis"
+msgstr "Blauwe ruis"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:272
 #, kde-format
 msgctxt "The gradient will be dithered with Bayer Matrix 2x2"
 msgid "Bayer Matrix 2x2"
-msgstr ""
+msgstr "Bayer-matrix 2x2"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:273
 #, kde-format
 msgctxt "The gradient will be dithered with Bayer Matrix 4x4"
 msgid "Bayer Matrix 4x4"
-msgstr ""
+msgstr "Bayer-matrix 4x4"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:274
 #, kde-format
 msgctxt "The gradient will be dithered with Bayer Matrix 8x8"
 msgid "Bayer Matrix 8x8"
-msgstr ""
+msgstr "Bayer-matrix 8x8"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:278
-#, fuzzy, kde-format
-#| msgid "&Dither:"
+#, kde-format
 msgid "Dither steps:"
-msgstr "&Ditheren (wiebelen):"
+msgstr "Dither-stappen:"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:293
 #, kde-format
